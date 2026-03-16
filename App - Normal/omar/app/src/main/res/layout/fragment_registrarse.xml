@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#6DE3DD"
+    tools:context=".AppDoc">
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@color/white"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_marginHorizontal="225dp"
+        android:layout_marginVertical="695dp"
+        android:text="Inicia Sesion"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        android:background="#6DE3DD"
+        />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:layout_marginVertical="700dp"
+        android:layout_marginHorizontal="80dp"
+        android:text="¿Ya tienes una cuenta?"/>
+
+    <FrameLayout
+        android:layout_width="300dp"
+        android:layout_height="440dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:background="#434343">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="180dp"
+            android:background="@color/white"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginVertical="30dp"/>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="35dp"
+            android:layout_marginVertical="250dp"
+            app:endIconMode="clear_text"
+            app:hintEnabled="false">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="240dp"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:hint="Correo"
+                android:inputType="textEmailAddress"
+                android:maxLength="30"
+                android:paddingHorizontal="16dp"
+                android:textColorHint="@color/black" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginVertical="310dp"
+            android:layout_marginHorizontal="35dp"
+            app:endIconMode="password_toggle"
+            app:hintEnabled="false">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="240dp"
+                android:layout_height="48dp"
+                android:background="@color/white"
+                android:hint="Contraseña"
+                android:inputType="textPassword"
+                android:maxLength="20"
+                android:paddingHorizontal="16dp"
+                android:textColorHint="@color/black" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginVertical="370dp"
+            android:layout_marginHorizontal="35dp"
+            app:endIconMode="password_toggle"
+            app:hintEnabled="false">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="240dp"
+                android:layout_height="48dp"
+                android:background="@color/white"
+                android:hint="ConfirmarContraseña"
+                android:inputType="textPassword"
+                android:maxLength="20"
+                android:paddingHorizontal="16dp"
+                android:textColorHint="@color/black" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </FrameLayout>
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="110dp"
+        android:layout_marginVertical="550dp"
+        android:background="@color/white"
+        android:text="Registrarse"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</FrameLayout>

@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">omar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="servicios_odontologicos">
+        <item>Limpieza dental</item>
+        <item>Blanqueamiento dental</item>
+        <item>Extracción dental</item>
+        <item>Empaste dental</item>
+        <item>Ortodoncia</item>
+        <item>Endodoncia</item>
+        <item>Revisión dental</item>
+        <item>Radiografía dental</item>
+        <item>Implante dental</item>
+        <item>Prótesis dental</item>
+    </string-array>
+
+    <string-array name="servicios_rayosx">
+        <item>Radiografía de tórax</item>
+        <item>Radiografía dental</item>
+        <item>Radiografía de columna</item>
+        <item>Radiografía de cráneo</item>
+        <item>Radiografía de mano</item>
+        <item>Radiografía de pie</item>
+        <item>Radiografía de pelvis</item>
+        <item>Radiografía de rodilla</item>
+    </string-array>
+
+    <string-array name="servicios_psicologia">
+        <item>Consulta psicológica</item>
+        <item>Terapia individual</item>
+        <item>Terapia de pareja</item>
+        <item>Terapia familiar</item>
+        <item>Evaluación psicológica</item>
+        <item>Orientación emocional</item>
+        <item>Manejo del estrés</item>
+        <item>Tratamiento de ansiedad</item>
+    </string-array>
+
+    <string-array name="servicios_traumatologia">
+        <item>Consulta traumatológica</item>
+        <item>Tratamiento de fracturas</item>
+        <item>Lesiones deportivas</item>
+        <item>Dolor de espalda</item>
+        <item>Problemas de rodilla</item>
+        <item>Problemas de hombro</item>
+        <item>Luxaciones</item>
+        <item>Control postoperatorio</item>
+    </string-array>
+
+
+    <string-array name="horarios">
+        <item>10:00am</item>
+        <item>10:30am</item>
+        <item>11:00am</item>
+        <item>11:30am</item>
+        <item>12:00am</item>
+        <item>12:30am</item>
+        <item>14:00am</item>
+        <item>14:30am</item>
+        <item>15:00am</item>
+        <item>15:30am</item>
+        <item>16:00am</item>
+        <item>16:30am</item>
+        <item>17:00am</item>
+        <item>17:30am</item>
+        <item>18:00am</item>
+        <item>18:30am</item>
+    </string-array>
+
+    <string-array name="Dias">
+        <item>Lunes</item>
+        <item>Martes</item>
+        <item>Miercoles</item>
+        <item>Jueves</item>
+        <item>Viernes</item>
+        <item>Sabado</item>
+        <item>Domingo</item>
+    </string-array>
+</resources>
