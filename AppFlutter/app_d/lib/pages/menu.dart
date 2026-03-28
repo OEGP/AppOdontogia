@@ -1,6 +1,7 @@
 import 'package:app_d/pages/m_psicologia.dart';
 import 'package:app_d/pages/m_rayox.dart';
 import 'package:app_d/pages/m_traumatologia.dart';
+import 'package:app_d/pages/perfil.dart';
 import 'package:flutter/material.dart';
 import 'm_odontologia.dart';
 
@@ -76,6 +77,14 @@ class menu extends StatelessWidget {
                               builder: (context) => m_rayox()),
                         );
                       },),
+
+                    menuCard(Icons.person_rounded , "Perfil", () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => perfil()),
+                      );
+                    },),
 
                   ],
                 ),

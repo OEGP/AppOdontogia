@@ -1,59 +1,26 @@
-import 'package:app_d/pages/Splash.dart';
-import 'package:app_d/pages/login.dart';
+import 'package:app_d/pages/menu.dart';
+import 'package:app_d/pages/register.dart';
 import 'package:flutter/material.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'package:app_d/pages/login.dart';
 
-void main() {
-  runApp(const MyApp());
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: splash(),
-    /* home:Scaffold(
-        backgroundColor: Colors.blue,
-        appBar: AppBar(
-          title: Text("My App Bar"),
-          centerTitle: true,
-          backgroundColor: Colors.lightBlueAccent,
-          elevation: 0,
-          leading: Icon(Icons.menu),
-          actions: [IconButton(
-              onPressed: () {},
-              icon: Icon(Icons.logout),
-        ),
-        ],
-        ),
-        body: Center(
-          child: Container(
-          height: 500,
-          width: 300,
-          decoration: BoxDecoration(
-            color: Colors.lightBlueAccent,
-            borderRadius: BorderRadius.circular(20),
-          ),
-          padding: EdgeInsets.all(25),
-          child: Icon(
-            Icons.favorite,
-            color: Colors.white,
-            size: 64,
-          ),
-           /* Text(
-            "Adentro",
-            style: TextStyle(
-            color: Colors.white,
-            fontSize: 28,
-            fontWeight: FontWeight.bold,
-          ),
-          ), */
-        ),
-       ),
-      ),*/
+      initialRoute: "/login",
+      routes: {
+        "/login": (context) => login(),
+        "/menu": (context) => menu(),
+        "/register": (context) => register(),
+      },
     );
   }
 }
-

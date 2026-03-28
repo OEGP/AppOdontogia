@@ -1,5 +1,8 @@
 import 'package:app_d/pages/login.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 
 class register extends StatefulWidget {
   const register({super.key});
@@ -116,7 +119,39 @@ class _RegisterState extends State<register> {
                 SizedBox(
                   width: double.infinity,
                   child: ElevatedButton(
-                    onPressed: () {},
+                    onPressed: () async {
+
+                      String nombre = userController.text.trim();
+                      String email = emailController.text.trim();
+                      String pass = passController.text.trim();
+
+                      try {
+                        UserCredential userCred = await FirebaseAuth.instance
+                            .createUserWithEmailAndPassword(
+                          email: email,
+                          password: pass,
+                        );
+
+                        String uid = userCred.user!.uid;
+
+                        await FirebaseFirestore.instance
+                            .collection("usuarios")
+                            .doc(uid)
+                            .set({
+                          "nombre": nombre,
+                          "correo": email,
+                        });
+
+                        ScaffoldMessenger.of(context).showSnackBar(
+                          SnackBar(content: Text("Registro exitoso")),
+                        );
+
+                        Navigator.pushReplacementNamed(context, "/menu");
+
+                      } catch (e) {
+                        print(e);
+                      }
+                    },
                     child: Text("Registrarse"),
                   ),
                 ),

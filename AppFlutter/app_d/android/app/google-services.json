@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "893567420832",
+    "project_id": "odon-78784",
+    "storage_bucket": "odon-78784.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:893567420832:android:582dc09a343b4629ebfcc5",
+        "android_client_info": {
+          "package_name": "com.omar.app_d"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuScW9YRinHKQ3IuxzEK4XyCrOjI8KztM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
