@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="bright_gray">#D1CFCF</color>
+    <color name="carmine_pink">#E65738</color>
+    <color name="dust_storm">#E5D0C5</color>
+    <color name="flesh">#FEE4D6</color>
+    <color name="gunmetal">#293441</color>
+    <color name="light_silver">#CFD8DC</color>
+    <color name="police_blue">#34536A</color>
+    <color name="steel_teal">#5A7E99</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">apkCavoshCafe202610</string>
+    <string name="cambiar">Cambiar</string>
+    <string name="carrito">Carrito</string>
+    <string name="codigo">Código</string>
+    <string name="content_description">contentDescription</string>
+    <string name="correo">Correo</string>
+    <string name="default_web_client_id" translatable="false">38541444596-4lnojv8fsjm3sch1kk2ssangthe8d6sb.apps.googleusercontent.com</string>
+    <string name="facebook_app_id">TU_APP_ID</string>
+    <string name="favoritos">Favoritos</string>
+    <string name="fb_login_protocol_scheme">fbTU_APP_ID</string>
+    <string name="gcm_defaultSenderId" translatable="false">38541444596</string>
+    <string name="google_api_key" translatable="false">AIzaSyCeSCV3zqzM109IYmxRRWm6mcwXfpKzpO0</string>
+    <string name="google_app_id" translatable="false">1:38541444596:android:60cb342d8d9d245b2f65a1</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCeSCV3zqzM109IYmxRRWm6mcwXfpKzpO0</string>
+    <string name="google_storage_bucket" translatable="false">appandroid-45955.firebasestorage.app</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="inicia_sesion_con">Inicia sesión con</string>
+    <string name="iniciar">Iniciar</string>
+    <string name="iniciar_sesion">Iniciar Sesión</string>
+    <string name="inicio">Inicio</string>
+    <string name="menu">Menú</string>
+    <string name="no_tienes_una_cuenta">¿No tienes una cuenta?</string>
+    <string name="nombres">Nombres</string>
+    <string name="olvidastes_passwordd">¿ Olvidastes contraseña ?</string>
+    <string name="passwordd">Contraseña</string>
+    <string name="perfil">Perfil</string>
+    <string name="project_id" translatable="false">appandroid-45955</string>
+    <string name="registrar">Registrar</string>
+    <string name="registrate">Registrate</string>
+    <string name="repetir_passwordd">Repetir contraseña</string>
+    <string name="resgistrate_con">Resgistrate con</string>
+    <string name="tienes_una_cuenta">Tienes una cuenta</string>
+    <string name="validar_codigo_enviado">Validar código enviado</string>
+    <string name="vamos_login">Vamos, inicia sesión</string>
+    <string name="vamos_ven_a_registrarte">Vamos,ven a registrarte</string>
+    <style name="Base.Theme.ApkCavoshCafe202610" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        
+        
+    </style>
+    <style name="Theme.ApkCavoshCafe202610" parent="Base.Theme.ApkCavoshCafe202610"/>
+</resources>

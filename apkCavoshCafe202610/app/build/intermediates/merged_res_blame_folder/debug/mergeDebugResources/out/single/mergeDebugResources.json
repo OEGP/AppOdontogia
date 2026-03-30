@@ -1,0 +1,270 @@
+[
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/layout_fragment_carrito.xml.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/layout/fragment_carrito.xml"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/layout_fragment_inicio.xml.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/layout/fragment_inicio.xml"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/layout_fragment_verificar.xml.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/layout/fragment_verificar.xml"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/drawable_sh_bg_item_bright_gray.xml.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/drawable/sh_bg_item_bright_gray.xml"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/drawable_se_ic_menu_menu.xml.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/drawable/se_ic_menu_menu.xml"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/drawable_ic_notificacion.xml.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/drawable/ic_notificacion.xml"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/layout_fragment_favoritos.xml.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/layout/fragment_favoritos.xml"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/drawable_ic_menu_inicio.xml.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/drawable/ic_menu_inicio.xml"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/font_poppins_medium.ttf.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/font/poppins_medium.ttf"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/drawable_sh_bg_btn_flesh.xml.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/drawable/sh_bg_btn_flesh.xml"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/layout_item_carrito_pedido.xml.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/layout/item_carrito_pedido.xml"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/drawable_ic_menu_favoritos.xml.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/drawable/ic_menu_favoritos.xml"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/color_nav_item_color.xml.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/color/nav_item_color.xml"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/drawable_ic_launcher_background.xml.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/layout_fragment_producto.xml.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/layout/fragment_producto.xml"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/drawable_se_ic_menu_carrito.xml.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/drawable/se_ic_menu_carrito.xml"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/drawable_sh_bg_header_police_blue.xml.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/drawable/sh_bg_header_police_blue.xml"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/drawable_ic_favorito.xml.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/drawable/ic_favorito.xml"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/drawable_se_ic_menu_inicio.xml.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/drawable/se_ic_menu_inicio.xml"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/xml_data_extraction_rules.xml.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/drawable_sh_bg_btn_carmine_pink.xml.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/drawable/sh_bg_btn_carmine_pink.xml"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/drawable_ic_menu_favoritos_selected.xml.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/drawable/ic_menu_favoritos_selected.xml"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/layout_fragment_login.xml.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/layout/fragment_login.xml"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/drawable_ic_google_plus.xml.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/drawable/ic_google_plus.xml"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/drawable_se_ic_menu_perfil.xml.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/drawable/se_ic_menu_perfil.xml"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/layout_item_inicio_pedidos.xml.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/layout/item_inicio_pedidos.xml"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/font_poppins_regular.ttf.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/font/poppins_regular.ttf"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/drawable_sh_bg_btn_bright_gray.xml.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/drawable/sh_bg_btn_bright_gray.xml"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/drawable_ic_buscar.xml.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/drawable/ic_buscar.xml"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/menu_bottom_nav_menu.xml.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/drawable_se_ic_menu_favoritos.xml.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/drawable/se_ic_menu_favoritos.xml"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/font_poppins_semibold.ttf.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/font/poppins_semibold.ttf"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/drawable_ic_menu_carrito.xml.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/drawable/ic_menu_carrito.xml"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/layout_fragment_menu.xml.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/layout/fragment_menu.xml"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/layout_fragment_perfil.xml.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/layout/fragment_perfil.xml"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/layout_fragment_registrar.xml.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/layout/fragment_registrar.xml"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/drawable_ic_apple.xml.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/drawable/ic_apple.xml"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/drawable_ic_menu_menu_selected.xml.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/drawable/ic_menu_menu_selected.xml"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/mipmap-anydpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/drawable_sh_bg_btn_gunmetal.xml.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/drawable/sh_bg_btn_gunmetal.xml"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/drawable_ic_coffee_cup.xml.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/drawable/ic_coffee_cup.xml"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/drawable_ic_menu_menu.xml.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/drawable/ic_menu_menu.xml"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/drawable_ic_add.xml.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/drawable/ic_add.xml"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/drawable_sh_bg_plus_carmine_pink.xml.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/drawable/sh_bg_plus_carmine_pink.xml"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/drawable_ic_menu_perfil_selected.xml.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/drawable/ic_menu_perfil_selected.xml"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/layout_fragment_splash.xml.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/layout/fragment_splash.xml"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/xml_backup_rules.xml.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/drawable_sh_bg_circle_carmine_pink.xml.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/drawable/sh_bg_circle_carmine_pink.xml"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/mipmap-anydpi/ic_launcher.xml"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/drawable_ic_facebook.xml.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/drawable/ic_facebook.xml"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/drawable_ic_menu_inicio_selected.xml.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/drawable/ic_menu_inicio_selected.xml"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/layout_activity_main.xml.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/layout/activity_main.xml"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/drawable_ic_menu_carrito_selected.xml.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/drawable/ic_menu_carrito_selected.xml"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/drawable_ic_menu_perfil.xml.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/drawable/ic_menu_perfil.xml"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/layout_item_inicio_nuevos.xml.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/layout/item_inicio_nuevos.xml"
+    },
+    {
+        "merged": "es.oaemdl.apkcavoshcafe202610.app-debug-64:/drawable_sh_bg_menu.xml.flat",
+        "source": "es.oaemdl.apkcavoshcafe202610.app-main-66:/drawable/sh_bg_menu.xml"
+    }
+]

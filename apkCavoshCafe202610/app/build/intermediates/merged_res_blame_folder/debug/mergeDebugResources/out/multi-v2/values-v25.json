@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "es.oaemdl.apkcavoshcafe202610.app-mergeDebugResources-62:/values-v25/values-v25.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\OMAR\\.gradle\\caches\\9.3.1\\transforms\\6c84528d1f09b24f7474e807fb958ed1\\workspace\\transformed\\appcompat-1.7.1\\res\\values-v25\\values-v25.xml",
+                    "from": {
+                        "startLines": "2,3,4,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,126,209,308",
+                        "endLines": "2,3,5,7",
+                        "endColumns": "70,82,12,12",
+                        "endOffsets": "121,204,303,414"
+                    }
+                }
+            ]
+        }
+    ]
+}
