@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "147521621947",
+    "project_id": "onpe-ee43c",
+    "storage_bucket": "onpe-ee43c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:147521621947:android:fa3d26ecd2155e04a5be9e",
+        "android_client_info": {
+          "package_name": "com.enri.onpe2016"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAY_hpA55Bzn7g5YXEARSCmfcFoGksIFv0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

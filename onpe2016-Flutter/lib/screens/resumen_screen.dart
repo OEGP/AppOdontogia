@@ -1,4 +1,24 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
+import 'package:firebase_core/firebase_core.dart';
+
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: ResumenScreen(),
+    );
+  }
+}
 
 class ResumenScreen extends StatelessWidget {
   const ResumenScreen({super.key});
@@ -15,54 +35,78 @@ class ResumenScreen extends StatelessWidget {
         leading: const Icon(Icons.menu),
       ),
 
-      body: SingleChildScrollView(
-        padding: const EdgeInsets.all(16),
-        child: Column(
-          children: [
+      body: StreamBuilder<DocumentSnapshot>(
+        stream: FirebaseFirestore.instance
+            .collection('resumen')
+            .doc('general')
+            .snapshots(),
+        builder: (context, snapshot) {
 
-            // HERO
-            Container(
-              padding: const EdgeInsets.all(20),
-              decoration: BoxDecoration(
-                color: const Color(0xFF1C2A49),
-                borderRadius: BorderRadius.circular(16),
-              ),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: const [
-                  Text("Actas Procesadas",
-                      style: TextStyle(color: Colors.white70, fontSize: 10)),
-                  SizedBox(height: 10),
-                  Row(
-                    crossAxisAlignment: CrossAxisAlignment.end,
+          if (snapshot.connectionState == ConnectionState.waiting) {
+            return const Center(child: CircularProgressIndicator());
+          }
+
+          if (!snapshot.hasData || !snapshot.data!.exists) {
+            return const Center(child: Text("No hay datos en Firestore"));
+          }
+
+          var data = snapshot.data!.data() as Map<String, dynamic>;
+
+          double actas = (data['actas'] as num).toDouble();
+          double participacion = (data['participacion'] as num).toDouble();
+          int electores = (data['electores'] as num).toInt();
+          List candidatos = data['candidatos'] ?? [];
+
+          return SingleChildScrollView(
+            padding: const EdgeInsets.all(16),
+            child: Column(
+              children: [
+
+                Container(
+                  padding: const EdgeInsets.all(20),
+                  decoration: BoxDecoration(
+                    color: const Color(0xFF1C2A49),
+                    borderRadius: BorderRadius.circular(16),
+                  ),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text("100.0",
-                          style: TextStyle(
-                              fontSize: 40,
-                              color: Colors.white,
-                              fontWeight: FontWeight.bold)),
-                      Text("%",
-                          style: TextStyle(color: Colors.amber, fontSize: 20)),
+                      const Text("Actas Procesadas",
+                          style: TextStyle(color: Colors.white70, fontSize: 10)),
+                      const SizedBox(height: 10),
+                      Row(
+                        crossAxisAlignment: CrossAxisAlignment.end,
+                        children: [
+                          Text("$actas",
+                              style: const TextStyle(
+                                  fontSize: 40,
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.bold)),
+                          const Text("%",
+                              style: TextStyle(color: Colors.amber, fontSize: 20)),
+                        ],
+                      ),
                     ],
                   ),
-                ],
-              ),
+                ),
+
+                const SizedBox(height: 20),
+
+                ...candidatos.map((c) => _candidato(
+                  c['nombre'],
+                  c['partido'],
+                  (c['porcentaje'] as num).toDouble(),
+                  c['ganador'],
+                )),
+
+                const SizedBox(height: 20),
+
+                _card("Participación", "$participacion%"),
+                _card("Electores Hábiles", electores.toString()),
+              ],
             ),
-
-            const SizedBox(height: 20),
-
-            _candidato("Pedro Pablo Kuczynski",
-                "Peruanos por el Kambio", 50.12, true),
-
-            _candidato("Keiko Fujimori",
-                "Fuerza Popular", 49.88, false),
-
-            const SizedBox(height: 20),
-
-            _card("Participación", "81.80%"),
-            _card("Electores Hábiles", "22,901,954"),
-          ],
-        ),
+          );
+        },
       ),
     );
   }
@@ -95,7 +139,7 @@ class ResumenScreen extends StatelessWidget {
               ganador
                   ? const Text("Ganador",
                   style: TextStyle(color: Colors.orange))
-                  : const Text(""),
+                  : const SizedBox(),
             ],
           )
         ],
